@@ -2,6 +2,7 @@ package characterTests;
 
 import characters.Warrior;
 import characters.WarriorType;
+import objects.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +14,7 @@ public class WarriorTest {
 
     @Before
     public void before(){
-        warrior = new Warrior(WarriorType.BARBARIAN);
+        warrior = new Warrior(WarriorType.BARBARIAN, Weapon.SWORD);
     }
 
     @Test
